@@ -25,13 +25,14 @@ This is a Streamlit web application that predicts a user's **10-year risk of Cor
 - 🗃️ Joblib for model persistence
 
 ## 📁 Project Structure
-
+.
 ├── app.py # Streamlit app
 ├── xgb_model.joblib # Trained XGBoost model
 ├── scaler.joblib # Preprocessing scaler
 ├── feature_names.joblib # Required feature columns
 ├── requirements.txt # Python packages
 └── README.md # Project description
+.
 
 ## ⚙️ Setup Instructions
 
