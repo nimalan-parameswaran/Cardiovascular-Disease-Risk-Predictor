@@ -14,8 +14,8 @@ This is a Streamlit web application that predicts a user's **10-year risk of Cor
 
 ## 🧠 Machine Learning
 - Model: XGBoost Classifier
-- Preprocessing: StandardScaler normalization + one-hot encoding
-- Trained on dataset provided by IEEE FLEPS Wearable Health Hackathon 2025
+- Preprocessing: StandardScaler normalisation + one-hot encoding
+- Trained on the dataset provided by the IEEE FLEPS Wearable Health Hackathon 2025
 - Evaluation: Confusion matrix, classification report, and feature importance
 
 ## 🛠️ Tech Stack
@@ -26,12 +26,12 @@ This is a Streamlit web application that predicts a user's **10-year risk of Cor
 
 ## 📁 Project Structure
 
-*├── app.py # Streamlit app
+├── app.py # Streamlit app
 ├── xgb_model.joblib # Trained XGBoost model
 ├── scaler.joblib # Preprocessing scaler
 ├── feature_names.joblib # Required feature columns
 ├── requirements.txt # Python packages
-└── README.md # Project description*
+└── README.md # Project description
 
 ## ⚙️ Setup Instructions
 
@@ -39,7 +39,7 @@ This is a Streamlit web application that predicts a user's **10-year risk of Cor
 ```bash
 
 git clone https://github.com/nimalan-parameshwaran/Cardiovascular-Disease-Risk-Predictor.git
-
+cd Cardiovascular-Disease-Risk-Predictor
 ```
 ### 2. Install dependencies
 ```bash
@@ -53,4 +53,4 @@ pip install -r requirements.txt
 streamlit run app.py
 
 ```
-## 4. Open your browser and go to `http://localhost:8501`
+#### 4. Open your browser and go to `http://localhost:8501`
