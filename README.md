@@ -25,28 +25,32 @@ This is a Streamlit web application that predicts a user's **10-year risk of Cor
 - 🗃️ Joblib for model persistence
 
 ## 📁 Project Structure
-```
-├── app.py # Streamlit app
+
+*├── app.py # Streamlit app
 ├── xgb_model.joblib # Trained XGBoost model
 ├── scaler.joblib # Preprocessing scaler
 ├── feature_names.joblib # Required feature columns
 ├── requirements.txt # Python packages
-└── README.md # Project description
-```
+└── README.md # Project description*
 
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the repository
 ```bash
+
 git clone https://github.com/nimalan-parameshwaran/Cardiovascular-Disease-Risk-Predictor.git
-cd Cardiovascular-Disease-Risk-Predictor
+
 ```
-2. Install dependencies
+### 2. Install dependencies
 ```bash
+
 pip install -r requirements.txt
+
 ```
-3. Run Streamlit locally
+### 3. Run Streamlit locally
 ```bash
+
 streamlit run app.py
+
 ```
-4. Open your browser and go to `http://localhost:8501`
+## 4. Open your browser and go to `http://localhost:8501`
