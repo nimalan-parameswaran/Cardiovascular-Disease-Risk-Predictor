@@ -6,8 +6,6 @@ This is a Streamlit web application that predicts a user's **10-year risk of Cor
 ## 🚀 Live Demo
 🔗 https://silver-trout-qrj4jwrrj6q2v96-8501.app.github.dev/
 
-=======
->>>>>>> b3690bc99484a0faabc7d1c906606bf3e988c03f
 ## 💡 Features
 - User-friendly web interface built with **Streamlit**
 - Input parameters like age, sex, cholesterol, BP, smoking habits, etc.
