@@ -24,7 +24,9 @@ age = st.number_input("Age", 20, 100, 50)
 sex = st.selectbox("Sex", ["Male", "Female"])
 is_smoking = st.selectbox("Do you smoke?", ["Yes", "No"])
 if is_smoking == 'Yes': 
-    cigsPerDay = st.slider("Cigarettes per day", 1, 20, 0)
+    cigsPerDay = st.slider("Cigarettes per day", 1, 60, 0)
+else:
+    cigsPerDay = 0
 BPMeds = st.selectbox("On blood pressure medication?", ["Yes", "No"])
 prevalentStroke = st.selectbox("History of Stroke?", ["Yes", "No"])
 prevalentHyp = st.selectbox("Has Hypertension?", ["Yes", "No"])
@@ -68,6 +70,6 @@ if st.button("Predict CHD Risk"):
     prediction = model.predict(user_scaled)[0]
     prob = model.predict_proba(user_scaled)[0][1]
     if prediction == 1:
-        st.error(f"⚠️ High Risk of CHD ({prob:.2%} probability)")
+        st.error("⚠️ High Risk of CHD")
     else:
-        st.success(f"✅ Low Risk of CHD ({prob:.2%} probability)")
+        st.success("✅ Low Risk of CHD")

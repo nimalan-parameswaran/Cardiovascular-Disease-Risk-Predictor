@@ -3,7 +3,7 @@
 This is a Streamlit web application that predicts a user's **10-year risk of Coronary Heart Disease (CHD)** using machine learning — specifically an **XGBoost** model trained on a real-world cardiovascular dataset.
 
 ## 🚀 Live Demo
-🔗 Coming Soon (Once deployed on [Streamlit Cloud](https://streamlit.io/cloud))
+🔗 https://silver-trout-qrj4jwrrj6q2v96-8501.app.github.dev/
 
 ## 💡 Features
 - User-friendly web interface built with **Streamlit**
@@ -14,8 +14,8 @@ This is a Streamlit web application that predicts a user's **10-year risk of Cor
 
 ## 🧠 Machine Learning
 - Model: XGBoost Classifier
-- Preprocessing: StandardScaler normalization + one-hot encoding
-- Trained on dataset provided by IEEE FLEPS Wearable Health Hackathon 2025
+- Preprocessing: StandardScaler normalisation + one-hot encoding
+- Trained on the dataset provided by the IEEE FLEPS Wearable Health Hackathon 2025
 - Evaluation: Confusion matrix, classification report, and feature importance
 
 ## 🛠️ Tech Stack
@@ -38,15 +38,25 @@ This is a Streamlit web application that predicts a user's **10-year risk of Cor
 
 ### 1. Clone the repository
 ```bash
+
 git clone https://github.com/nimalan-parameshwaran/Cardiovascular-Disease-Risk-Predictor.git
 cd Cardiovascular-Disease-Risk-Predictor
 ```
-2. Install dependencies
+### 2. Install dependencies
 ```bash
+
 pip install -r requirements.txt
+
 ```
-3. Run Streamlit locally
+### 3. Run Streamlit locally
 ```bash
+
 streamlit run app.py
+
 ```
-4. Open your browser and go to `http://localhost:8501`
+#### 4. Open your browser and go to `http://localhost:8501`
+### 5. Input your health parameters and get your CHD risk prediction!
+![alt text](Streamlit_pages-to-jpg-0001.jpg)
+
+### 📄 Download PDF Report
+You can download the detailed project documentation as a PDF [here]().
