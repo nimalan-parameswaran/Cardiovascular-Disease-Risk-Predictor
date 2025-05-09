@@ -2,7 +2,6 @@
 
 This is a Streamlit web application that predicts a user's **10-year risk of Coronary Heart Disease (CHD)** using machine learning — specifically an **XGBoost** model trained on a real-world cardiovascular dataset.
 
-<<<<<<< HEAD
 ## 🚀 Live Demo
 🔗 https://silver-trout-qrj4jwrrj6q2v96-8501.app.github.dev/
 
