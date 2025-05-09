@@ -58,11 +58,9 @@ streamlit run app.py
 
 ```
 #### 4. Open your browser and go to `http://localhost:8501`
-<<<<<<< HEAD
+
 ### 5. Input your health parameters and get your CHD risk prediction!
 ![alt text](Streamlit_pages-to-jpg-0001.jpg)
 
 ### 📄 Download PDF Report
 You can download the detailed project documentation as a PDF [here]().
-=======
->>>>>>> b3690bc99484a0faabc7d1c906606bf3e988c03f
