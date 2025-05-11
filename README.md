@@ -3,7 +3,7 @@
 This is a Streamlit web application that predicts a user's **10-year risk of Coronary Heart Disease (CHD)** using machine learning — specifically, a **XGBoost (eXtreme Gradient Boosting)** model trained on a real-world cardiovascular dataset.
 
 ## 🚀 Demo
-🔗 https://drive.google.com/file/d/1JMdUfj49aBJDRA_1wiYzMc1EsI-yp-9M/view?usp=sharing
+🔗 (https://drive.google.com/file/d/1aWjsL7GuypkpjL1mUUK2s5HMFV7NCfCM/view?usp=sharing)
 
 ## 💡 Features
 - User-friendly web interface built with **Streamlit**
