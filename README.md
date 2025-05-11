@@ -1,6 +1,6 @@
 # 🩺 Cardiovascular Disease Risk Predictor
 
-This is a Streamlit web application that predicts a user's **10-year risk of Coronary Heart Disease (CHD)** using machine learning — specifically an **XGBoost** model trained on a real-world cardiovascular dataset.
+This is a Streamlit web application that predicts a user's **10-year risk of Coronary Heart Disease (CHD)** using machine learning — specifically a **Random Forest** model trained on a real-world cardiovascular dataset.
 
 ## 🚀 Demo
 🔗 https://drive.google.com/file/d/1JMdUfj49aBJDRA_1wiYzMc1EsI-yp-9M/view?usp=sharing
@@ -9,25 +9,25 @@ This is a Streamlit web application that predicts a user's **10-year risk of Cor
 - User-friendly web interface built with **Streamlit**
 - Input parameters like age, sex, cholesterol, BP, smoking habits, etc.
 - Model output: CHD risk prediction (Low / High) with confidence score
-- Powered by **XGBoost**, one of the most powerful ML algorithms
+- Powered by **Random Forest**, one of the most powerful ML algorithms
 - Real-time inference based on medical risk factors
 
 ## 🧠 Machine Learning
-- Model: XGBoost Classifier
+- Model: Random Forest Classifier
 - Preprocessing: StandardScaler normalisation + one-hot encoding
 - Trained on the dataset provided by the IEEE FLEPS Wearable Health Hackathon 2025
 - Evaluation: Confusion matrix, classification report, and feature importance
 
 ## 🛠️ Tech Stack
 - 🐍 Python
-- 📊 Scikit-learn, Pandas, NumPy, XGBoost
+- 📊 Scikit-learn, Pandas, NumPy, Random Forest
 - 🌐 Streamlit for UI
 - 🗃️ Joblib for model persistence
 
 ## 📁 Project Structure
 ```
 ├── app.py # Streamlit app
-├── xgb_model.joblib # Trained XGBoost model
+├── Rg_model.joblib # Trained Random Forest model
 ├── scaler.joblib # Preprocessing scaler
 ├── feature_names.joblib # Required feature columns
 ├── requirements.txt # Python packages
